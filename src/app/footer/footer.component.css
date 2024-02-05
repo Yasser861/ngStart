@@ -1,0 +1,9 @@
+.innerFooter{
+    background-color: #2C3E50;
+}
+.innerFooter ul li i{
+    border: solid 1px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}

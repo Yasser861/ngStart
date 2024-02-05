@@ -1,0 +1,20 @@
+<section class="py-5">
+    <div class="headCon text-center mt-5">
+        <h2 class="position-relative fs-1 fw-bold">CONTACT SECTION</h2>
+        <i class="fa-solid fa-star fs-5"></i>
+    </div>
+
+    <div class="d-flex justify-content-center align-items-center">
+        <form action="Post" class="w-50 py-5">
+            <label for="userName" class="position-relative">User Name:</label>
+            <input (input)="showLabel($event)" name="userName" type="text" class="form-control my-2" placeholder="User Name">
+            <label for="userAge" class="position-relative">User Age:</label>
+            <input (input)="showLabel($event)" name="userAge" type="text" class="form-control my-2" placeholder="User Age">
+            <label for="userEmail" class="position-relative">User Email:</label>
+            <input (input)="showLabel($event)" name="userEmail" type="email" class="form-control my-2" placeholder="User Email">
+            <label for="userPass" class="position-relative">User Password:</label>
+            <input (input)="showLabel($event)" name="userPass" type="password" class="form-control my-2" placeholder="User Password">
+            <button class="btn btn-info text-white mt-3">Submit</button>
+        </form>
+    </div>
+</section>

@@ -1,0 +1,57 @@
+.innerPro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s
+}
+.innerPro i{
+    color: white;
+    font-size: 60px;
+}
+.pro:hover .innerPro{
+    opacity: 1;
+}
+.headPort{
+    color: #2C3E50;
+}
+.headPort h2::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 140%;
+    left: 40%;
+}
+.headPort h2::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 140%;
+    right: 40%;
+}
+.detail{
+    top: 0;
+    background-color: rgba(0, 255, 255, 0.3);
+    height: 100%;
+}
+.innerDetail{
+    height: 100%;
+}
+.detail i{
+    cursor: pointer;
+}
+.detail>i{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}

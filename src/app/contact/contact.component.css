@@ -1,0 +1,27 @@
+.headCon{
+    color: #2C3E50;
+}
+.headCon h2::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 140%;
+    left: 40%;
+}
+.headCon h2::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 140%;
+    right: 40%;
+}
+form label{
+    color: aqua;
+    top:50px;
+    z-index: -1;
+    transition: all 0.5s;
+}

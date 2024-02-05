@@ -1,0 +1,7 @@
+.navColor{
+    background-color: #2C3E50;
+}
+.activeLink{
+    background-color: aqua;
+    border-radius: 8px;
+}

@@ -1,0 +1,67 @@
+<section class="py-5 position-relative">
+    <div class="headPort text-center pt-5">
+        <h2 class="position-relative fs-1 fw-bold">PORTFOLIO COMPONENT</h2>
+        <i class="fa-solid fa-star fs-5"></i>
+    </div>
+    <br>
+    <div class="port container pb-4">
+        <div class="row g-4">
+            <div class="pro col-md-4" >
+                <div class="position-relative">
+                    <img src="./assets/poert1.png" class="w-100" alt="photo">
+                    <div class="innerPro" (click)="showDetail($event)">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pro col-md-4" >
+                <div class="position-relative">
+                    <img src="./assets/port2.png" class="w-100" alt="photo">
+                    <div class="innerPro" (click)="showDetail($event)">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pro col-md-4" >
+                <div class="position-relative">
+                    <img src="./assets/port3.png" class="w-100" alt="photo">
+                    <div class="innerPro" (click)="showDetail($event)">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pro col-md-4" >
+                <div class="position-relative">
+                    <img src="./assets/poert1.png" class="w-100" alt="photo">
+                    <div class="innerPro" (click)="showDetail($event)">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pro col-md-4" >
+                <div class="position-relative">
+                    <img src="./assets/port2.png" class="w-100" alt="photo">
+                    <div class="innerPro" (click)="showDetail($event)">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="pro col-md-4">
+                <div class="position-relative">
+                    <img src="./assets/port3.png" class="w-100" alt="photo">
+                    <div class="innerPro" (click)="showDetail($event)">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="detail position-absolute w-100 d-none position-relative">
+        <i class="fa-solid fa-xmark fs-2" (click)="hideDetail()"></i>
+        <div  class="innerDetail d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-chevron-left fs-2" (click)="preImg()"></i>
+            <img src="../../assets/poert1.png" class="w-50" alt="photo">
+            <i class="fa-solid fa-chevron-right fs-2" (click)="nextImg()"></i>
+        </div>
+    </div>
+</section>

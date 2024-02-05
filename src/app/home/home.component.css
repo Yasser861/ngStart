@@ -1,0 +1,18 @@
+section div h2::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 140%;
+    left: 10%;
+}
+section div h2::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 140%;
+    right: 10%;
+}
